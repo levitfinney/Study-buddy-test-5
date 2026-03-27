@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Tutor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>AI Tutor</h1>
+
+<div id="controls">
+  <button onclick="setMode('normal')">Normal</button>
+  <button onclick="setMode('simple')">Explain Simple</button>
+  <button onclick="setMode('deep')">Explain Deep</button>
+  <button onclick="generateQuiz()">Quiz Me</button>
+  <button onclick="clearMemory()">Clear Memory</button>
+</div>
+
+<div id="chat"></div>
+
+<input type="text" id="userInput" placeholder="Ask something...">
+<button onclick="sendMessage()">Send</button>
+
+<script src="script.js"></script>
+</body>
+</html>
